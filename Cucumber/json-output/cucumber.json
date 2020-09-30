@@ -1,0 +1,235 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Facebook App Open",
+        "description": "",
+        "id": "facebook-app-testing;facebook-app-open;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12646696137,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User can open the fblogin page",
+            "match": {
+              "location": "Fb_Step_def.openbrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2972898250,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User can enter \"9573705757\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9573705757",
+                  "offset": 16
+                }
+              ],
+              "location": "Fb_Step_def.Enterdetails(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1081875484,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User can enter password \"azar5757\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "azar5757",
+                  "offset": 25
+                }
+              ],
+              "location": "Fb_Step_def.EnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 962387658,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User can click login button",
+            "match": {
+              "location": "Fb_Step_def.Clickloginbutton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27391585638,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click the logout link",
+            "match": {
+              "location": "Fb_Step_def.Clicklogoutlink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10148642033,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click the logout button",
+            "match": {
+              "location": "Fb_Step_def.Clicklogoutbutton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1831475329,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the browser",
+            "match": {
+              "location": "Fb_Step_def.closebrowser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Facebook App Open",
+        "description": "",
+        "id": "facebook-app-testing;facebook-app-open;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20717351917,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User can open the fblogin page",
+            "match": {
+              "location": "Fb_Step_def.openbrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2370974688,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User can enter \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 16
+                }
+              ],
+              "location": "Fb_Step_def.Enterdetails(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 307783777,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User can enter password \"azar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "azar",
+                  "offset": 25
+                }
+              ],
+              "location": "Fb_Step_def.EnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 236459205,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User can click login button",
+            "match": {
+              "location": "Fb_Step_def.Clickloginbutton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47173889726,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using id\u003duserNavigationLabel\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027USER-PC\u0027, ip: \u0027192.168.43.41\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002715\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat Cucumber.Cucumber.Fb_Step_def.Clicklogoutlink(Fb_Step_def.java:59)\r\n\tat ✽.Then click the logout link(D:/Azar/Cucumber/src/test/java/Cucumber/Cucumber/fbAppTesting.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "click the logout link",
+            "match": {
+              "location": "Fb_Step_def.Clicklogoutlink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "click the logout button",
+            "match": {
+              "location": "Fb_Step_def.Clicklogoutbutton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Close the browser",
+            "match": {
+              "location": "Fb_Step_def.closebrowser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook App Testing",
+    "description": "",
+    "id": "facebook-app-testing",
+    "keyword": "Feature",
+    "uri": "D:/Azar/Cucumber/src/test/java/Cucumber/Cucumber/fbAppTesting.feature"
+  }
+]

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="127.84202">
+    <testcase classname="Facebook App Testing" name="Facebook App Open" time="57.035561">
+        <system-out><![CDATA[Given User can open the fblogin page........................................passed
+When User can enter "9573705757"............................................passed
+Then User can enter password "azar5757".....................................passed
+Then User can click login button............................................passed
+Then click the logout link..................................................passed
+Then click the logout button................................................passed
+And Close the browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Facebook App Testing" name="Facebook App Open 2" time="70.806459">
+        <failure message="org.openqa.selenium.NoSuchElementException: Cannot locate an element using id=userNavigationLabel&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'USER-PC', ip: '192.168.43.41', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '15'&#10;Driver info: driver.version: RemoteWebDriver&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)&#13;&#10;&#9;at org.openqa.selenium.By$ById.findElement(By.java:188)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at Cucumber.Cucumber.Fb_Step_def.Clicklogoutlink(Fb_Step_def.java:59)&#13;&#10;&#9;at ✽.Then click the logout link(D:/Azar/Cucumber/src/test/java/Cucumber/Cucumber/fbAppTesting.feature:9)&#13;&#10;"><![CDATA[Given User can open the fblogin page........................................passed
+When User can enter "123456"................................................passed
+Then User can enter password "azar".........................................passed
+Then User can click login button............................................passed
+Then click the logout link..................................................failed
+Then click the logout button................................................skipped
+And Close the browser.......................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using id=userNavigationLabel
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-PC', ip: '192.168.43.41', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '15'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Cucumber.Cucumber.Fb_Step_def.Clicklogoutlink(Fb_Step_def.java:59)
+	at ✽.Then click the logout link(D:/Azar/Cucumber/src/test/java/Cucumber/Cucumber/fbAppTesting.feature:9)
+]]></failure>
+    </testcase>
+</testsuite>
