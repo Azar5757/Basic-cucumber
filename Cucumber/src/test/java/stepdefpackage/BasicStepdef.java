@@ -25,6 +25,7 @@ public class BasicStepdef {
 		driver = new ChromeDriver(co);
 		driver.get("https://www.facebook.com");
 		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
 		
 	} 
 
